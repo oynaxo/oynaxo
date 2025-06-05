@@ -3,16 +3,23 @@
 <div align="center">
   <img src="public/images/logo.svg" alt="OynaXo Logo" width="200"/>
   
-  <h3>Klasik Zeka Oyununun Modern Versiyonu</h3>
-  
-  <div>
-    <a href="https://apps.apple.com/app/oynaxo">
-      <img src="public/images/app-store.svg" alt="Download on App Store" width="160"/>
-    </a>
-    <a href="https://play.google.com/store/apps/details?id=com.oynaxo">
-      <img src="public/images/play-store.svg" alt="Get it on Google Play" width="160"/>
-    </a>
-  </div>
+  <h2>Klasik Zeka Oyununun Modern Versiyonu</h2>
+</div>
+
+## 📱 Hemen İndir
+
+### 🍎 iOS için
+<div align="center">
+  <a href="https://apps.apple.com/app/oynaxo">
+    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on App Store" width="200"/>
+  </a>
+</div>
+
+### 🤖 Android için
+<div align="center">
+  <a href="https://play.google.com/store/apps/details?id=com.oynaxo">
+    <img src="https://play.google.com/intl/en_us/badges/static/images/badges/tr-get.png" alt="Get it on Google Play" width="200"/>
+  </a>
 </div>
 
 ## ✨ Öne Çıkan Özellikler
@@ -113,14 +120,19 @@
 - 🏆 Küresel sıralama
 - 💫 Minimum reklam, maksimum oyun keyfi
 
-## 📱 İndir
+## 📱 Platform Seçin
 
+### 🍎 iOS için
 <div align="center">
   <a href="https://apps.apple.com/app/oynaxo">
-    <img src="public/images/app-store.svg" alt="Download on App Store" width="160"/>
+    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on App Store" width="200"/>
   </a>
+</div>
+
+### 🤖 Android için
+<div align="center">
   <a href="https://play.google.com/store/apps/details?id=com.oynaxo">
-    <img src="public/images/play-store.svg" alt="Get it on Google Play" width="160"/>
+    <img src="https://play.google.com/intl/en_us/badges/static/images/badges/tr-get.png" alt="Get it on Google Play" width="200"/>
   </a>
 </div>
 
