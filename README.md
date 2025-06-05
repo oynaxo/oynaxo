@@ -3,81 +3,109 @@
 <div align="center">
   <img src="logo.svg" alt="OynaXo Logo" width="200" height="200">
   
-  ### Modern Tic-Tac-Toe Game Experience
+  ### Modern 3 Taş Oyunu
   
-  [![Website](https://img.shields.io/badge/Website-oynaxo.github.io-blue)](https://oynaxo.github.io/oynaxo/)
-  [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+  [![Website](https://img.shields.io/badge/Website-oynaxo.web.app-blue)](https://oynaxo.web.app)
+  [![App Store](https://img.shields.io/badge/App_Store-0A84FF?style=flat&logo=app-store&logoColor=white)](https://oynaxo.page.link/ios)
 </div>
 
-## ✨ Features
+## ✨ Özellikler
 
 <div align="center">
   <table>
     <tr>
       <td align="center">
-        <img src="feature-ai.svg" alt="AI Feature" width="80" height="80">
+        <img src="feature-ai.svg" alt="Yapay Zeka" width="80" height="80">
         <br>
-        <b>AI Opponent</b>
+        <b>Yapay Zeka</b>
         <br>
-        Smart AI with multiple difficulty levels
+        Akıllı rakipler
       </td>
       <td align="center">
-        <img src="feature-online.svg" alt="Online Feature" width="80" height="80">
+        <img src="feature-online.svg" alt="Çevrimiçi" width="80" height="80">
         <br>
-        <b>Online Play</b>
+        <b>Çevrimiçi</b>
         <br>
-        Play with friends worldwide
+        Arkadaşlarla oyna
       </td>
       <td align="center">
-        <img src="feature-offline.svg" alt="Offline Feature" width="80" height="80">
+        <img src="feature-offline.svg" alt="Çevrimdışı" width="80" height="80">
         <br>
-        <b>Offline Mode</b>
+        <b>Çevrimdışı</b>
         <br>
-        Play anytime, anywhere
+        Her yerde oyna
       </td>
     </tr>
   </table>
 </div>
 
-## 🎯 Game Modes
+## 🎮 Oyun Modları
 
-| Mode | Description |
+| Mod | Açıklama |
 |------|-------------|
-| 🤖 Single Player | Challenge our AI opponent |
-| 👥 Two Player | Play with a friend locally |
-| ⏱️ Time Attack | Race against the clock |
+| 🤖 Tek Oyunculu | Yapay zeka ile karşılaşma |
+| 👥 İki Oyunculu | Arkadaşınla oyna |
+| ⏱️ Zamana Karşı | Hızlı düşün, hızlı kazan |
 
-## 🚀 Quick Start
+## 🎯 Neden OynaXo?
 
-1. Visit [oynaxo.github.io/oynaxo](https://oynaxo.github.io/oynaxo)
-2. Choose your game mode
-3. Start playing!
+- 🎮 Klasik oyunu modern arayüzle buluşturur
+- 🚀 Hızlı öğrenilir, kolay oynanır
+- 🧠 Zeka geliştirici ve strateji odaklıdır
+- 📱 Mobil cihazlara özel tasarım
+- 🎯 Minimum reklam, maksimum oyun keyfi
+- 🌐 Çevrimdışı oynanabilirlik
+- 👥 Sosyal etkileşim imkanı
 
-## 📱 Download
+## 🎯 Kimin İçin Uygun?
+
+- 🧩 Zeka oyunlarını seven her yaştan kullanıcı
+- 👨‍👩‍👧‍👦 Ailece oynayacak eğlenceli oyun arayanlar
+- 📚 Strateji geliştirmek isteyen öğrenciler
+- 🎯 Klasik oyunlara nostaljiyle yaklaşan yetişkinler
+- 📱 Kısa sürede vakit geçirmek isteyen mobil oyuncular
+
+## 🚀 Hızlı Başlangıç
+
+1. [oynaxo.web.app](https://oynaxo.web.app) adresini ziyaret et
+2. Oyun modunu seç
+3. Oynamaya başla!
+
+## 📱 İndir
 
 <div align="center">
-  <a href="#">
-    <img src="https://img.shields.io/badge/Download_on_App_Store-0A84FF?style=for-the-badge&logo=app-store&logoColor=white" alt="Download on App Store">
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/Get_it_on_Google_Play-414141?style=for-the-badge&logo=google-play&logoColor=white" alt="Get it on Google Play">
+  <a href="https://oynaxo.page.link/ios">
+    <img src="https://img.shields.io/badge/App_Store'dan_İndir-0A84FF?style=for-the-badge&logo=app-store&logoColor=white" alt="App Store'dan İndir">
   </a>
 </div>
 
-## 🛠️ Technologies
+## 🛠️ Teknolojiler
 
 - React
 - TypeScript
 - Tailwind CSS
 - Firebase
 
-## 📞 Contact
+## 📞 İletişim
 
-- Website: [oynaxo.github.io/oynaxo](https://oynaxo.github.io/oynaxo)
-- Email: contact@oynaxo.com
+- 🌐 [oynaxo.web.app](https://oynaxo.web.app)
+- 📧 contact@oynaxo.com
+- 💬 [Discord](https://discord.gg/oynaxo)
+
+### 📱 Sosyal Medya
+
+- 🐦 [Twitter](https://x.com/OynaXo)
+- 📺 [YouTube](https://www.youtube.com/@OynaXo)
+- 🎮 [Twitch](https://www.twitch.tv/oynaxo)
+- 📱 [TikTok](https://www.tiktok.com/@oynaxo)
+- 👥 [Facebook](https://www.facebook.com/oynaxo/)
+- 💼 [LinkedIn](https://www.linkedin.com/company/oynaxo)
+- 📌 [Pinterest](https://www.pinterest.com/oynaxo/)
+- 📝 [Medium](https://oynaxo.medium.com/)
+- 🔗 [Linktree](https://linktr.ee/oynaxo)
 
 ---
 
 <div align="center">
-  Made with ❤️ by OynaXo Team
+  OynaXo Ekibi tarafından ❤️ ile yapıldı
 </div> 
