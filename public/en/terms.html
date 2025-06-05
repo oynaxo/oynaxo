@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="bNk2877DUINWaEBo3IqCbnDn2mx6jHkKoo5MR6Kt0io" />
+    <meta name="pinterest-site-verification" content="e418dbdd38854252759fa05bc90ca505" />
+    <title>Terms of Use - OynaXo</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/svg+xml" href="../images/logo.svg">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="../images/logo.svg" data-svg="logo" alt="OynaXo - 3 Taş Zeka Oyunu Logo" width="150" height="50">
+            </div>
+            <div class="language-selector">
+                <select id="languageSelect">
+                    <option value="tr">Türkçe</option>
+                    <option value="en" selected>English</option>
+                    <option value="fr">Français</option>
+                </select>
+            </div>
+        </nav>
+    </header>
+
+    <main class="legal-content">
+        <h1>Terms of Use</h1>
+        
+        <section>
+            <h2>1. General Terms</h2>
+            <p>By using the OynaXo application, you agree to these terms of use. If you do not agree to these terms, please do not use the application.</p>
+        </section>
+
+        <section>
+            <h2>2. Service Usage</h2>
+            <p>OynaXo provides users with a free gaming experience. In-app purchases and features may vary.</p>
+        </section>
+
+        <section>
+            <h2>3. User Responsibilities</h2>
+            <p>Users must:</p>
+            <ul>
+                <li>Provide accurate and up-to-date information</li>
+                <li>Maintain account security</li>
+                <li>Be respectful to other users</li>
+                <li>Follow application rules</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>4. Intellectual Property</h2>
+            <p>OynaXo and its content are protected by copyright and other intellectual property laws. Unauthorized use and distribution is prohibited.</p>
+        </section>
+
+        <section>
+            <h2>5. Changes</h2>
+            <p>These terms of use may be updated from time to time. Significant changes will be notified to users.</p>
+        </section>
+
+        <section>
+            <h2>6. Contact</h2>
+            <p>For questions: info@oynaxo.com</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="/en/privacy-policy.html">Privacy Policy</a>
+                <a href="/en/terms.html">Terms of Use</a>
+            </div>
+            <p>&copy; 2025 OynaXo. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('languageSelect').addEventListener('change', function() {
+            const selectedLanguage = this.value;
+            if (selectedLanguage === 'en') {
+                window.location.href = '/en/terms.html';
+            } else if (selectedLanguage === 'fr') {
+                window.location.href = '/fr/conditions-dutilisation.html';
+            } else {
+                window.location.href = '/kullanim-kosullari.html';
+            }
+        });
+    </script>
+</body>
+</html> 

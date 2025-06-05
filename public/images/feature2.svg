@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .icon { fill: #2196F3; }
+        .circle { fill: none; stroke: #2196F3; stroke-width: 2; }
+    </style>
+    <g transform="translate(10, 10)">
+        <path class="icon" d="M30 20 L50 20 L50 40 L30 40 Z"/>
+        <circle class="circle" cx="40" cy="30" r="15"/>
+        <path class="icon" d="M35 25 L45 25 M35 30 L45 30 M35 35 L45 35"/>
+    </g>
+</svg> 

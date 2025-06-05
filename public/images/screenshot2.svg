@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .background { fill: #1C1F26; }
+        .menu-item { fill: #2A2F38; rx: 10; ry: 10; }
+        .menu-text { fill: #FFFFFF; font-family: Arial; font-size: 24px; }
+        .title { fill: #00BFA6; font-family: Arial; font-size: 48px; font-weight: bold; }
+    </style>
+    <rect class="background" width="800" height="600"/>
+    
+    <!-- Title -->
+    <text class="title" x="400" y="120" text-anchor="middle">OynaXo</text>
+    
+    <!-- Menu Items -->
+    <g transform="translate(200, 200)">
+        <rect class="menu-item" x="0" y="0" width="400" height="60"/>
+        <text class="menu-text" x="200" y="38" text-anchor="middle">Yeni Oyun</text>
+        
+        <rect class="menu-item" x="0" y="80" width="400" height="60"/>
+        <text class="menu-text" x="200" y="118" text-anchor="middle">Çevrimiçi Oyna</text>
+        
+        <rect class="menu-item" x="0" y="160" width="400" height="60"/>
+        <text class="menu-text" x="200" y="198" text-anchor="middle">Ayarlar</text>
+        
+        <rect class="menu-item" x="0" y="240" width="400" height="60"/>
+        <text class="menu-text" x="200" y="278" text-anchor="middle">Sıralama</text>
+    </g>
+</svg> 

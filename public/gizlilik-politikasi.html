@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="bNk2877DUINWaEBo3IqCbnDn2mx6jHkKoo5MR6Kt0io" />
+    <meta name="pinterest-site-verification" content="e418dbdd38854252759fa05bc90ca505" />
+    <title>Gizlilik Politikası - OynaXo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.svg" data-svg="logo" alt="OynaXo - 3 Taş Zeka Oyunu Logo" width="150" height="50">
+            </div>
+            <div class="language-selector">
+                <select id="languageSelect">
+                    <option value="tr">Türkçe</option>
+                    <option value="en">English</option>
+                    <option value="fr">Français</option>
+                </select>
+            </div>
+        </nav>
+    </header>
+
+    <main class="legal-content">
+        <h1>Gizlilik Politikası</h1>
+        
+        <section>
+            <h2>1. Veri Toplama</h2>
+            <p>OynaXo olarak, kullanıcı deneyimini iyileştirmek için bazı kişisel verileri topluyoruz:</p>
+            <ul>
+                <li>Kullanıcı adı ve e-posta adresi</li>
+                <li>Oyun istatistikleri ve skorlar</li>
+                <li>Cihaz bilgileri ve IP adresi</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>2. Veri Kullanımı</h2>
+            <p>Topladığımız verileri şu amaçlarla kullanıyoruz:</p>
+            <ul>
+                <li>Hizmetlerimizi sağlamak ve iyileştirmek</li>
+                <li>Kullanıcı deneyimini kişiselleştirmek</li>
+                <li>Güvenliği sağlamak</li>
+                <li>Yasal yükümlülükleri yerine getirmek</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>3. Veri Güvenliği</h2>
+            <p>Kullanıcı verilerinizin güvenliği bizim için önemlidir. Verilerinizi korumak için uygun teknik ve organizasyonel önlemleri alıyoruz.</p>
+        </section>
+
+        <section>
+            <h2>4. Çerezler</h2>
+            <p>OynaXo, kullanıcı deneyimini iyileştirmek için çerezler kullanmaktadır. Tarayıcı ayarlarınızdan çerez tercihlerinizi yönetebilirsiniz.</p>
+        </section>
+
+        <section>
+            <h2>5. Üçüncü Taraflar</h2>
+            <p>Kullanıcı verilerinizi üçüncü taraflarla paylaşmıyoruz. Ancak yasal zorunluluk durumunda yetkili mercilerle paylaşım yapılabilir.</p>
+        </section>
+
+        <section>
+            <h2>6. Haklarınız</h2>
+            <p>KVKK kapsamında aşağıdaki haklara sahipsiniz:</p>
+            <ul>
+                <li>Verilerinize erişim</li>
+                <li>Verilerinizin düzeltilmesi</li>
+                <li>Verilerinizin silinmesi</li>
+                <li>Veri işlemeye itiraz</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>7. İletişim</h2>
+            <p>Gizlilik politikamız hakkında sorularınız için: info@oynaxo.com</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="/gizlilik-politikasi.html">Gizlilik Politikası</a>
+                <a href="/kullanim-kosullari.html">Kullanım Koşulları</a>
+            </div>
+            <p>&copy; 2025 OynaXo. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('languageSelect').addEventListener('change', function() {
+            const selectedLanguage = this.value;
+            if (selectedLanguage === 'en') {
+                window.location.href = '/en/privacy-policy.html';
+            } else if (selectedLanguage === 'fr') {
+                window.location.href = '/fr/politique-de-confidentialite.html';
+            } else {
+                window.location.href = '/gizlilik-politikasi.html';
+            }
+        });
+    </script>
+</body>
+</html> 

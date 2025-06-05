@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://oynaxo.web.app/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://oynaxo.web.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oynaxo.web.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://oynaxo.web.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://oynaxo.web.app/"/>
+  </url>
+  <url>
+    <loc>https://oynaxo.web.app/gizlilik-politikasi.html</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://oynaxo.web.app/gizlilik-politikasi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oynaxo.web.app/en/privacy-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://oynaxo.web.app/fr/politique-de-confidentialite.html"/>
+  </url>
+  <url>
+    <loc>https://oynaxo.web.app/kullanim-kosullari.html</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://oynaxo.web.app/kullanim-kosullari.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oynaxo.web.app/en/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://oynaxo.web.app/fr/conditions-dutilisation.html"/>
+  </url>
+</urlset> 

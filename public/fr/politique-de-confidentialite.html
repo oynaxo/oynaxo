@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="bNk2877DUINWaEBo3IqCbnDn2mx6jHkKoo5MR6Kt0io" />
+    <meta name="pinterest-site-verification" content="e418dbdd38854252759fa05bc90ca505" />
+    <title>Politique de Confidentialité - OynaXo</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/svg+xml" href="../images/logo.svg">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="../images/logo.svg" data-svg="logo" alt="OynaXo - 3 Taş Zeka Oyunu Logo" width="150" height="50">
+            </div>
+            <div class="language-selector">
+                <select id="languageSelect">
+                    <option value="tr">Türkçe</option>
+                    <option value="en">English</option>
+                    <option value="fr" selected>Français</option>
+                </select>
+            </div>
+        </nav>
+    </header>
+
+    <main class="legal-content">
+        <h1>Politique de Confidentialité</h1>
+        
+        <section>
+            <h2>1. Collecte des Données</h2>
+            <p>Chez OynaXo, nous collectons certaines données personnelles pour améliorer l'expérience utilisateur :</p>
+            <ul>
+                <li>Nom d'utilisateur et adresse e-mail</li>
+                <li>Statistiques de jeu et scores</li>
+                <li>Informations sur l'appareil et adresse IP</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>2. Utilisation des Données</h2>
+            <p>Nous utilisons les données collectées aux fins suivantes :</p>
+            <ul>
+                <li>Pour fournir et améliorer nos services</li>
+                <li>Pour personnaliser l'expérience utilisateur</li>
+                <li>Pour assurer la sécurité</li>
+                <li>Pour remplir les obligations légales</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>3. Sécurité des Données</h2>
+            <p>La sécurité de vos données est importante pour nous. Nous mettons en œuvre des mesures techniques et organisationnelles appropriées pour protéger vos données.</p>
+        </section>
+
+        <section>
+            <h2>4. Cookies</h2>
+            <p>OynaXo utilise des cookies pour améliorer l'expérience utilisateur. Vous pouvez gérer vos préférences de cookies dans les paramètres de votre navigateur.</p>
+        </section>
+
+        <section>
+            <h2>5. Tiers</h2>
+            <p>Nous ne partageons pas vos données avec des tiers. Cependant, un partage peut avoir lieu avec les autorités en cas d'obligation légale.</p>
+        </section>
+
+        <section>
+            <h2>6. Vos Droits</h2>
+            <p>En vertu des lois sur la protection des données, vous disposez des droits suivants :</p>
+            <ul>
+                <li>Accès à vos données</li>
+                <li>Correction de vos données</li>
+                <li>Suppression de vos données</li>
+                <li>Opposition au traitement des données</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>7. Contact</h2>
+            <p>Pour toute question sur notre politique de confidentialité : info@oynaxo.com</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="/fr/politique-de-confidentialite.html">Politique de Confidentialité</a>
+                <a href="/fr/conditions-dutilisation.html">Conditions d'Utilisation</a>
+            </div>
+            <p>&copy; 2025 OynaXo. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('languageSelect').addEventListener('change', function() {
+            const selectedLanguage = this.value;
+            if (selectedLanguage === 'en') {
+                window.location.href = '/en/privacy-policy.html';
+            } else if (selectedLanguage === 'fr') {
+                window.location.href = '/fr/politique-de-confidentialite.html';
+            } else {
+                window.location.href = '/gizlilik-politikasi.html';
+            }
+        });
+    </script>
+</body>
+</html> 

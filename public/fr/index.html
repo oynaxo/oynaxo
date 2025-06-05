@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayXo - Jeu de 3 Pierres | Version Moderne du Jeu de Pierre Classique</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/svg+xml" href="../images/logo.svg">
+    <meta name="description" content="PlayXo - Jeu de 3 Pierres, version moderne du jeu de pierre classique. Jouez avec des amis ou l'IA en modes 3x3, 4x4 et 5x5. Téléchargez gratuitement et commencez à jouer maintenant !">
+    <meta name="keywords" content="jeu de 3 pierres, jeu de réflexion, jeu de pierre, jeu classique, jeu de pierre moderne, jeu 3x3, jeu 4x4, jeu 5x5, jeu IA, jeu en ligne, jeu hors ligne, jeu gratuit, jeu mobile, jeu smartphone, jeu tablette, jeu de stratégie, jeu cérébral, jeu de réflexion, jeu entre amis, jeu familial">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://oynaxo.web.app/fr/" />
+    
+    <!-- Language Alternatives -->
+    <link rel="alternate" hreflang="tr" href="https://oynaxo.web.app/">
+    <link rel="alternate" hreflang="en" href="https://oynaxo.web.app/en/">
+    <link rel="alternate" hreflang="fr" href="https://oynaxo.web.app/fr/">
+    <link rel="alternate" hreflang="x-default" href="https://oynaxo.web.app/">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="PlayXo - Jeu de 3 Pierres | Version Moderne du Jeu de Pierre Classique">
+    <meta property="og:description" content="PlayXo - Jeu de 3 Pierres, version moderne du jeu de pierre classique. Jouez avec des amis ou l'IA en modes 3x3, 4x4 et 5x5. Téléchargez gratuitement et commencez à jouer maintenant !">
+    <meta property="og:image" content="https://oynaxo.web.app/images/logo.svg">
+    <meta property="og:url" content="https://oynaxo.web.app/fr/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="PlayXo">
+    <meta property="og:locale" content="fr_FR">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="PlayXo - Jeu de 3 Pierres | Version Moderne du Jeu de Pierre Classique">
+    <meta name="twitter:description" content="PlayXo - Jeu de 3 Pierres, version moderne du jeu de pierre classique. Jouez avec des amis ou l'IA en modes 3x3, 4x4 et 5x5. Téléchargez gratuitement et commencez à jouer maintenant !">
+    <meta name="twitter:image" content="https://oynaxo.web.app/images/logo.svg">
+    <meta name="twitter:site" content="@oynaxo">
+    <meta name="twitter:creator" content="@oynaxo">
+
+    <!-- Schema.org Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MobileApplication",
+      "name": "PlayXo - Jeu de 3 Pierres",
+      "description": "Version moderne du jeu de pierre classique. Jouez avec des amis ou l'IA en modes 3x3, 4x4 et 5x5.",
+      "applicationCategory": "Game",
+      "operatingSystem": "iOS, Android",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "1250"
+      }
+    }
+    </script>
+
+    <!-- Search Engine Verification Tags -->
+    <!-- Google Search Console -->
+    <meta name="google-site-verification" content="bNk2877DUINWaEBo3IqCbnDn2mx6jHkKoo5MR6Kt0io" />
+    
+    <!-- Yandex Webmaster -->
+    <meta name="yandex-verification" content="YANDEX_VERIFICATION_CODE" />
+    
+    <!-- Bing Webmaster -->
+    <meta name="msvalidate.01" content="BING_VERIFICATION_CODE" />
+    
+    <!-- Baidu Webmaster -->
+    <meta name="baidu-site-verification" content="BAIDU_VERIFICATION_CODE" />
+    
+    <!-- Naver Webmaster -->
+    <meta name="naver-site-verification" content="NAVER_VERIFICATION_CODE" />
+    
+    <!-- Seznam Webmaster -->
+    <meta name="seznam-verification" content="SEZNAM_VERIFICATION_CODE" />
+
+    <!-- DuckDuckGo -->
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    
+    <!-- Qwant -->
+    <meta name="qwant-site-verification" content="QWANT_VERIFICATION_CODE" />
+    
+    <!-- Ecosia -->
+    <meta name="ecosia-site-verification" content="ECOSIA_VERIFICATION_CODE" />
+    
+    <!-- Brave Search -->
+    <meta name="brave-search-verification" content="BRAVE_VERIFICATION_CODE" />
+    
+    <!-- Yahoo! Site Explorer -->
+    <meta name="yahoo-site-verification" content="YAHOO_VERIFICATION_CODE" />
+    
+    <!-- Alexa -->
+    <meta name="alexaVerifyID" content="ALEXA_VERIFICATION_CODE" />
+    
+    <!-- Majestic -->
+    <meta name="majestic-site-verification" content="MAJESTIC_VERIFICATION_CODE" />
+    
+    <!-- Ahrefs -->
+    <meta name="ahrefs-site-verification" content="AHREFS_VERIFICATION_CODE" />
+    
+    <!-- Semrush -->
+    <meta name="semrush-site-verification" content="SEMRUSH_VERIFICATION_CODE" />
+    
+    <!-- Moz -->
+    <meta name="moz-site-verification" content="MOZ_VERIFICATION_CODE" />
+
+    <!-- Pinterest Site Verification -->
+    <meta name="p:domain_verify" content="e418dbdd38854252759fa05bc90ca505"/>
+
+    <!-- Firebase SDK -->
+    <script defer src="/__/firebase/11.8.1/firebase-app-compat.js"></script>
+    <script defer src="/__/firebase/11.8.1/firebase-auth-compat.js"></script>
+    <script defer src="/__/firebase/11.8.1/firebase-database-compat.js"></script>
+    <script defer src="/__/firebase/11.8.1/firebase-firestore-compat.js"></script>
+    <script defer src="/__/firebase/11.8.1/firebase-functions-compat.js"></script>
+    <script defer src="/__/firebase/11.8.1/firebase-messaging-compat.js"></script>
+    <script defer src="/__/firebase/11.8.1/firebase-storage-compat.js"></script>
+    <script defer src="/__/firebase/11.8.1/firebase-analytics-compat.js"></script>
+    <script defer src="/__/firebase/11.8.1/firebase-remote-config-compat.js"></script>
+    <script defer src="/__/firebase/11.8.1/firebase-performance-compat.js"></script>
+    <script defer src="/__/firebase/11.8.1/firebase-dynamic-links-compat.js"></script>
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="../images/fr/logo.svg" data-svg="logo" alt="PlayXo - Jeu de 3 Pierres Logo" width="150" height="50">
+        </div>
+        <div class="language-selector">
+          <select id="languageSelect">
+            <option value="tr">Türkçe</option>
+            <option value="en">English</option>
+            <option value="fr">Français</option>
+          </select>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <h1>PlayXo - Jeu de 3 Pierres</h1>
+        <p class="subtitle">Version moderne du jeu de pierre classique</p>
+        <div class="cta-buttons">
+          <a href="https://oynaxo.page.link/ios" class="app-store-button" id="appStoreButton">
+            <img src="../images/fr/app-store.svg" data-svg="app-store" alt="PlayXo - Jeu de 3 Pierres Télécharger sur l'App Store" width="135" height="40">
+          </a>
+          <a href="#" class="play-store-button">
+            <img src="../images/fr/play-store.svg" data-svg="play-store" alt="PlayXo - Jeu de 3 Pierres Obtenir sur Google Play" width="135" height="40">
+          </a>
+        </div>
+      </section>
+
+      <section class="features">
+        <h2>PlayXo - Jeu de 3 Pierres Fonctionnalités</h2>
+        <div class="feature-grid">
+          <div class="feature-card">
+            <img src="../images/fr/feature1.svg" data-svg="feature1" alt="PlayXo - Modes de Jeu Multiples" width="64" height="64">
+            <h3>Modes de Jeu Multiples</h3>
+            <p>Rendez le jeu plus difficile avec les options de grille 3x3, 4x4 et 5x5</p>
+          </div>
+          <div class="feature-card">
+            <img src="../images/fr/feature2.svg" data-svg="feature2" alt="PlayXo - Intelligence Artificielle" width="64" height="64">
+            <h3>Intelligence Artificielle</h3>
+            <p>Jouez avec Dora IA en niveaux de difficulté Facile, Moyen et Difficile</p>
+          </div>
+          <div class="feature-card">
+            <img src="../images/fr/feature3.svg" data-svg="feature3" alt="PlayXo - Mode de Jeu en Ligne" width="64" height="64">
+            <h3>Jeu en Ligne</h3>
+            <p>Jouez en temps réel avec des amis ou des joueurs aléatoires</p>
+          </div>
+          <div class="feature-card">
+            <img src="../images/fr/feature4.svg" data-svg="feature4" alt="PlayXo - Mode de Jeu Hors Ligne" width="64" height="64">
+            <h3>Jeu Hors Ligne</h3>
+            <p>Jouez en face à face avec des amis via le mode Pass & Play</p>
+          </div>
+          <div class="feature-card">
+            <img src="../images/fr/feature5.svg" data-svg="feature5" alt="PlayXo - Boutique Cosmétique" width="64" height="64">
+            <h3>Boutique Cosmétique</h3>
+            <p>Gagnez des pièces et achetez des thèmes spéciaux</p>
+          </div>
+          <div class="feature-card">
+            <img src="../images/fr/feature6.svg" data-svg="feature6" alt="PlayXo - Classement" width="64" height="64">
+            <h3>Classement</h3>
+            <p>Prenez votre place dans les classements mondiaux et rivalisez avec d'autres joueurs</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="game-modes">
+        <h2>PlayXo - Jeu de 3 Pierres Modes</h2>
+        <div class="mode-grid">
+          <div class="mode-card">
+            <h3>Mode en Ligne</h3>
+            <ul>
+              <li>Jouez avec des amis</li>
+              <li>Affrontez des joueurs aléatoires</li>
+              <li>Options de grille 3x3, 4x4 et 5x5</li>
+            </ul>
+          </div>
+          <div class="mode-card">
+            <h3>Mode Hors Ligne</h3>
+            <ul>
+              <li>Jouez avec des amis via Pass & Play</li>
+              <li>Jouez avec Dora IA</li>
+              <li>Niveaux de difficulté Facile, Moyen et Difficile</li>
+            </ul>
+          </div>
+          <div class="mode-card">
+            <h3>Fonctionnalités Spéciales</h3>
+            <ul>
+              <li>Système de pièces et boutique cosmétique</li>
+              <li>Classement mondial</li>
+              <li>Support multilingue</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="screenshots">
+        <h2>PlayXo - Jeu de 3 Pierres Captures d'Écran</h2>
+        <div class="screenshot-slider">
+          <button class="slider-button prev" aria-label="Capture d'Écran Précédente">
+            <svg width="24" height="24" viewBox="0 0 24 24">
+              <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+            </svg>
+          </button>
+          <div class="screenshot-container">
+            <div class="screenshot-track">
+              <div class="screenshot-slide">
+                <img src="../images/fr/screenshot1.svg" data-svg="screenshot1" alt="PlayXo - Jeu de 3 Pierres Capture d'Écran 1" width="320" height="640">
+              </div>
+              <div class="screenshot-slide">
+                <img src="../images/fr/screenshot2.svg" data-svg="screenshot2" alt="PlayXo - Jeu de 3 Pierres Capture d'Écran 2" width="320" height="640">
+              </div>
+              <div class="screenshot-slide">
+                <img src="../images/fr/screenshot3.svg" data-svg="screenshot3" alt="PlayXo - Jeu de 3 Pierres Capture d'Écran 3" width="320" height="640">
+              </div>
+              <div class="screenshot-slide">
+                <img src="../images/fr/screenshot4.svg" data-svg="screenshot4" alt="PlayXo - Jeu de 3 Pierres Capture d'Écran 4" width="320" height="640">
+              </div>
+            </div>
+          </div>
+          <button class="slider-button next" aria-label="Capture d'Écran Suivante">
+            <svg width="24" height="24" viewBox="0 0 24 24">
+              <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
+            </svg>
+          </button>
+        </div>
+        <div class="screenshot-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>Contact</h4>
+          <p>Email: info@oynaxo.com</p>
+          <div class="social-media">
+            <a href="https://twitter.com/oynaxo" target="_blank" class="social-icon" aria-label="PlayXo Twitter">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/>
+              </svg>
+            </a>
+            <a href="https://instagram.com/oynaxo" target="_blank" class="social-icon" aria-label="PlayXo Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+              </svg>
+            </a>
+            <a href="https://facebook.com/oynaxo" target="_blank" class="social-icon" aria-label="PlayXo Facebook">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+              </svg>
+            </a>
+            <a href="https://youtube.com/@oynaxo" target="_blank" class="social-icon" aria-label="PlayXo YouTube">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/>
+                <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h4>Liens</h4>
+          <ul>
+            <li><a href="politique-de-confidentialite.html">Politique de Confidentialité</a></li>
+            <li><a href="conditions-dutilisation.html">Conditions d'Utilisation</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 PlayXo. Tous droits réservés.</p>
+      </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+  </body>
+</html> 

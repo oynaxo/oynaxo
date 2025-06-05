@@ -1,0 +1,18 @@
+{
+  "projects": {
+    "default": "oynaxo"
+  },
+  "targets": {
+    "oynaxo": {
+      "hosting": {
+        "tr": [
+          "oynaxo-tr"
+        ],
+        "en": [
+          "oynaxo-en"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

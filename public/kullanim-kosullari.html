@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="bNk2877DUINWaEBo3IqCbnDn2mx6jHkKoo5MR6Kt0io" />
+    <meta name="pinterest-site-verification" content="e418dbdd38854252759fa05bc90ca505" />
+    <title>Kullanım Koşulları - OynaXo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.svg" data-svg="logo" alt="OynaXo - 3 Taş Zeka Oyunu Logo" width="150" height="50">
+            </div>
+            <div class="language-selector">
+                <select id="languageSelect">
+                    <option value="tr">Türkçe</option>
+                    <option value="en">English</option>
+                    <option value="fr">Français</option>
+                </select>
+            </div>
+        </nav>
+    </header>
+
+    <main class="legal-content">
+        <h1>Kullanım Koşulları</h1>
+        
+        <section>
+            <h2>1. Genel Hükümler</h2>
+            <p>OynaXo uygulamasını kullanarak bu kullanım koşullarını kabul etmiş sayılırsınız. Bu koşulları kabul etmiyorsanız, lütfen uygulamayı kullanmayınız.</p>
+        </section>
+
+        <section>
+            <h2>2. Hizmet Kullanımı</h2>
+            <p>OynaXo, kullanıcılarına ücretsiz bir oyun deneyimi sunmaktadır. Uygulama içi satın alımlar ve özellikler değişiklik gösterebilir.</p>
+        </section>
+
+        <section>
+            <h2>3. Kullanıcı Sorumlulukları</h2>
+            <p>Kullanıcılar:</p>
+            <ul>
+                <li>Doğru ve güncel bilgiler sağlamalıdır</li>
+                <li>Hesap güvenliğini korumalıdır</li>
+                <li>Diğer kullanıcılara saygılı davranmalıdır</li>
+                <li>Uygulama kurallarına uymalıdır</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>4. Fikri Mülkiyet</h2>
+            <p>OynaXo ve içeriği telif hakkı ve diğer fikri mülkiyet yasaları tarafından korunmaktadır. İzinsiz kullanım ve dağıtım yasaktır.</p>
+        </section>
+
+        <section>
+            <h2>5. Değişiklikler</h2>
+            <p>Bu kullanım koşulları zaman zaman güncellenebilir. Önemli değişiklikler kullanıcılara bildirilecektir.</p>
+        </section>
+
+        <section>
+            <h2>6. İletişim</h2>
+            <p>Sorularınız için: info@oynaxo.com</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="/gizlilik-politikasi.html">Gizlilik Politikası</a>
+                <a href="/kullanim-kosullari.html">Kullanım Koşulları</a>
+            </div>
+            <p>&copy; 2025 OynaXo. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('languageSelect').addEventListener('change', function() {
+            const selectedLanguage = this.value;
+            if (selectedLanguage === 'en') {
+                window.location.href = '/en/terms.html';
+            } else if (selectedLanguage === 'fr') {
+                window.location.href = '/fr/conditions-dutilisation.html';
+            } else {
+                window.location.href = '/kullanim-kosullari.html';
+            }
+        });
+    </script>
+</body>
+</html> 
