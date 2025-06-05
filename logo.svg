@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="90" fill="#4A90E2" opacity="0.1"/>
+  
+  <!-- X Symbol -->
+  <path d="M60 60 L140 140" stroke="#4A90E2" stroke-width="12" stroke-linecap="round"/>
+  <path d="M140 60 L60 140" stroke="#4A90E2" stroke-width="12" stroke-linecap="round"/>
+  
+  <!-- O Symbol -->
+  <circle cx="100" cy="100" r="40" fill="none" stroke="#4A90E2" stroke-width="12"/>
+  
+  <!-- Text -->
+  <text x="100" y="180" font-family="Arial" font-size="24" fill="#4A90E2" text-anchor="middle">OynaXo</text>
+</svg> 

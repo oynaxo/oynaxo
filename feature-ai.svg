@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+  <!-- Brain Background -->
+  <circle cx="40" cy="40" r="35" fill="#4A90E2" opacity="0.1"/>
+  
+  <!-- Brain Pattern -->
+  <path d="M25 30 Q40 20 55 30" stroke="#4A90E2" stroke-width="3" fill="none"/>
+  <path d="M25 40 Q40 30 55 40" stroke="#4A90E2" stroke-width="3" fill="none"/>
+  <path d="M25 50 Q40 40 55 50" stroke="#4A90E2" stroke-width="3" fill="none"/>
+  
+  <!-- Circuit Lines -->
+  <path d="M20 25 L60 25" stroke="#4A90E2" stroke-width="2" stroke-dasharray="4"/>
+  <path d="M20 55 L60 55" stroke="#4A90E2" stroke-width="2" stroke-dasharray="4"/>
+</svg> 

@@ -1,7 +1,7 @@
 # 🎮 OynaXo
 
 <div align="center">
-  <img src="https://oynaxo.web.app/logo.png" alt="OynaXo Logo" width="200"/>
+  <img src="logo.svg" alt="OynaXo Logo" width="200"/>
   
   <h1>Modern 3 Taş Zeka Oyunu</h1>
   <p>Klasik zeka oyununun yeni nesil versiyonu</p>
@@ -13,21 +13,21 @@
   <table>
     <tr>
       <td align="center">
-        <img src="https://oynaxo.web.app/features/ai.svg" width="80"/>
+        <img src="feature-ai.svg" width="80"/>
         <br/>
         <b>Yapay Zeka</b>
         <br/>
         <small>3 Zorluk Seviyesi</small>
       </td>
       <td align="center">
-        <img src="https://oynaxo.web.app/features/online.svg" width="80"/>
+        <img src="feature-online.svg" width="80"/>
         <br/>
         <b>Çevrimiçi</b>
         <br/>
         <small>Arkadaşlarla Oyna</small>
       </td>
       <td align="center">
-        <img src="https://oynaxo.web.app/features/offline.svg" width="80"/>
+        <img src="feature-offline.svg" width="80"/>
         <br/>
         <b>Çevrimdışı</b>
         <br/>
@@ -71,9 +71,9 @@
 ## 🌍 Dil Desteği
 
 <div align="center">
-  <img src="https://oynaxo.web.app/flags/tr.svg" width="40" alt="Türkçe"/>
-  <img src="https://oynaxo.web.app/flags/en.svg" width="40" alt="English"/>
-  <img src="https://oynaxo.web.app/flags/fr.svg" width="40" alt="Français"/>
+  <img src="https://flagcdn.com/tr.svg" width="40" alt="Türkçe"/>
+  <img src="https://flagcdn.com/gb.svg" width="40" alt="English"/>
+  <img src="https://flagcdn.com/fr.svg" width="40" alt="Français"/>
 </div>
 
 ## ⭐ Neden OynaXo?
