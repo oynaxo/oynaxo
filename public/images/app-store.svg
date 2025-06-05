@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="160" height="50" viewBox="0 0 160 50" xmlns="http://www.w3.org/2000/svg">
-    <style>
-        .button { fill: #000; }
-        .text { fill: #fff; font-family: 'Arial', sans-serif; }
-    </style>
-    <rect class="button" x="0" y="0" width="160" height="50" rx="8"/>
-    <text class="text" x="20" y="30" font-size="16">App Store</text>
-</svg> 
