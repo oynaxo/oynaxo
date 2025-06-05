@@ -1,4 +1,8 @@
-# <div align="center">🎮 OynaXo</div>
+# <div align="center">
+  <img src="https://img.shields.io/badge/Web3.0_Ready-FF6B6B?style=for-the-badge&logo=ethereum&logoColor=white" alt="Web3.0 Ready">
+  <br>
+  🎮 OynaXo
+</div>
 
 <div align="center">
   <img src="https://img.shields.io/badge/Modern_3_Taş_Oyunu-FF6B6B?style=for-the-badge&logoColor=white" alt="Modern 3 Taş Oyunu">
@@ -6,6 +10,45 @@
   
   [![Website](https://img.shields.io/badge/Website-oynaxo.web.app-2D3436?style=for-the-badge&logo=google-chrome&logoColor=white)](https://oynaxo.web.app)
   [![App Store](https://img.shields.io/badge/App_Store-0A84FF?style=for-the-badge&logo=app-store&logoColor=white)](https://oynaxo.page.link/ios)
+  [![Web3](https://img.shields.io/badge/Web3_Ready-FF6B6B?style=for-the-badge&logo=ethereum&logoColor=white)](https://oynaxo.web.app)
+</div>
+
+<br>
+
+## <div align="center">🌐 Web3.0 Özellikleri</div>
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="33%">
+        <img src="https://img.shields.io/badge/NFT_Ödüller-FF6B6B?style=for-the-badge&logo=nft&logoColor=white" alt="NFT Ödüller">
+        <br><br>
+        🏆
+        <br>
+        <b>NFT Ödüller</b>
+        <br>
+        <sub>Kazanılan başarılar NFT olarak kaydedilir</sub>
+      </td>
+      <td align="center" width="33%">
+        <img src="https://img.shields.io/badge/Blockchain-0984E3?style=for-the-badge&logo=ethereum&logoColor=white" alt="Blockchain">
+        <br><br>
+        ⛓️
+        <br>
+        <b>Blockchain</b>
+        <br>
+        <sub>Güvenli ve şeffaf skor tablosu</sub>
+      </td>
+      <td align="center" width="33%">
+        <img src="https://img.shields.io/badge/DeFi-00B894?style=for-the-badge&logo=ethereum&logoColor=white" alt="DeFi">
+        <br><br>
+        💎
+        <br>
+        <b>DeFi</b>
+        <br>
+        <sub>Token ile ödül sistemi</sub>
+      </td>
+    </tr>
+  </table>
 </div>
 
 <br>
@@ -22,6 +65,7 @@
         struct GameView: View {
             @State private var board = Array(repeating: "", count: 9)
             @State private var isXTurn = true
+            @State private var nftRewards: [NFT] = []
             
             var body: some View {
                 VStack {
@@ -37,35 +81,35 @@
                         }
                     }
                     .padding()
+                    
+                    NFTGalleryView(nfts: nftRewards)
                 }
             }
         }
         ```
       </td>
       <td align="center" width="50%">
-        <img src="https://img.shields.io/badge/Animasyonlar-0984E3?style=for-the-badge&logo=swift&logoColor=white" alt="Animasyonlar">
+        <img src="https://img.shields.io/badge/Web3_Entegrasyonu-0984E3?style=for-the-badge&logo=ethereum&logoColor=white" alt="Web3 Entegrasyonu">
         <br><br>
         ```swift
-        struct CellView: View {
-            let symbol: String
-            let action: () -> Void
-            @State private var scale: CGFloat = 1.0
+        struct NFTGalleryView: View {
+            let nfts: [NFT]
+            @State private var selectedNFT: NFT?
             
             var body: some View {
-                Button(action: {
-                    withAnimation(.spring()) {
-                        scale = 0.8
-                        action()
-                        scale = 1.0
+                ScrollView(.horizontal) {
+                    LazyHStack {
+                        ForEach(nfts) { nft in
+                            NFTView(nft: nft)
+                                .onTapGesture {
+                                    selectedNFT = nft
+                                }
+                        }
                     }
-                }) {
-                    Text(symbol)
-                        .font(.system(size: 40, weight: .bold))
-                        .frame(width: 80, height: 80)
-                        .background(Color(.systemGray6))
-                        .cornerRadius(10)
                 }
-                .scaleEffect(scale)
+                .sheet(item: $selectedNFT) { nft in
+                    NFTDetailView(nft: nft)
+                }
             }
         }
         ```
