@@ -1,19 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
-  <!-- Device Background -->
-  <rect x="20" y="15" width="40" height="50" rx="5" fill="#4A90E2" opacity="0.1"/>
+  <!-- Background with Gradient -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#4A90E2;stop-opacity:0.2" />
+    </linearGradient>
+  </defs>
   
-  <!-- Screen -->
-  <rect x="25" y="20" width="30" height="40" rx="2" fill="none" stroke="#4A90E2" stroke-width="2"/>
+  <!-- Background Circle -->
+  <circle cx="40" cy="40" r="35" fill="url(#grad1)"/>
   
-  <!-- Game Board -->
-  <path d="M35 30 L35 50" stroke="#4A90E2" stroke-width="2"/>
-  <path d="M45 30 L45 50" stroke="#4A90E2" stroke-width="2"/>
-  <path d="M25 35 L55 35" stroke="#4A90E2" stroke-width="2"/>
-  <path d="M25 45 L55 45" stroke="#4A90E2" stroke-width="2"/>
+  <!-- Device with Animation -->
+  <rect x="25" y="20" width="30" height="40" rx="5" fill="#4A90E2" stroke="#4A90E2" stroke-width="2">
+    <animate attributeName="fill-opacity" values="1;0.8;1" dur="2s" repeatCount="indefinite"/>
+  </rect>
   
-  <!-- X and O -->
-  <path d="M30 30 L40 40" stroke="#4A90E2" stroke-width="2"/>
-  <path d="M40 30 L30 40" stroke="#4A90E2" stroke-width="2"/>
-  <circle cx="50" cy="40" r="5" fill="none" stroke="#4A90E2" stroke-width="2"/>
+  <!-- Screen Content with Animation -->
+  <rect x="30" y="25" width="20" height="15" rx="2" fill="#4A90E2" opacity="0.5">
+    <animate attributeName="opacity" values="0.5;0.3;0.5" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Standalone Icon -->
+  <path d="M35 45 L45 45" stroke="#4A90E2" stroke-width="2">
+    <animate attributeName="stroke-opacity" values="1;0.7;1" dur="2s" repeatCount="indefinite"/>
+  </path>
+  <path d="M35 50 L45 50" stroke="#4A90E2" stroke-width="2">
+    <animate attributeName="stroke-opacity" values="1;0.7;1" dur="2s" repeatCount="indefinite"/>
+  </path>
 </svg> 
