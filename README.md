@@ -10,6 +10,72 @@
 
 <br>
 
+## <div align="center">📱 SwiftUI Tasarımı</div>
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="50%">
+        <img src="https://img.shields.io/badge/Modern_Arayüz-FF6B6B?style=for-the-badge&logo=swift&logoColor=white" alt="Modern Arayüz">
+        <br><br>
+        ```swift
+        struct GameView: View {
+            @State private var board = Array(repeating: "", count: 9)
+            @State private var isXTurn = true
+            
+            var body: some View {
+                VStack {
+                    Text(isXTurn ? "X Sırası" : "O Sırası")
+                        .font(.title)
+                        .foregroundColor(.primary)
+                    
+                    LazyVGrid(columns: Array(repeating: GridItem(.flexible()), count: 3)) {
+                        ForEach(0..<9) { index in
+                            CellView(symbol: board[index]) {
+                                makeMove(at: index)
+                            }
+                        }
+                    }
+                    .padding()
+                }
+            }
+        }
+        ```
+      </td>
+      <td align="center" width="50%">
+        <img src="https://img.shields.io/badge/Animasyonlar-0984E3?style=for-the-badge&logo=swift&logoColor=white" alt="Animasyonlar">
+        <br><br>
+        ```swift
+        struct CellView: View {
+            let symbol: String
+            let action: () -> Void
+            @State private var scale: CGFloat = 1.0
+            
+            var body: some View {
+                Button(action: {
+                    withAnimation(.spring()) {
+                        scale = 0.8
+                        action()
+                        scale = 1.0
+                    }
+                }) {
+                    Text(symbol)
+                        .font(.system(size: 40, weight: .bold))
+                        .frame(width: 80, height: 80)
+                        .background(Color(.systemGray6))
+                        .cornerRadius(10)
+                }
+                .scaleEffect(scale)
+            }
+        }
+        ```
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br>
+
 ## <div align="center">✨ Özellikler</div>
 
 <div align="center">
